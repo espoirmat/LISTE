@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/beauty.css">
+    <title>registre de Contact</title>
+</head>
+<body>
+    <div class="title">
+        <h3>Registre de Contact</h3>
+    </div>
+
+   <div class="block">
+    <div class="block_form">
+
+        <h1>Formulaire de Contact</h1>
+
+        <form action="#">
+
+            <div class="txt_field">
+                <input type="text" required>
+                <span></span>
+                <label for="">Nom</label> 
+            </div>
+
+            <div class="txt_field">
+                <input type="text" required>
+                <span></span>
+                <label for="">Postnom</label> 
+            </div>  
+
+            <div class="txt_field">
+                <input type="text" required>
+                <span></span>
+                <label for="">Prénom</label> 
+            </div> 
+
+            <div class="txt_field">
+                <input type="mail" required>
+                <span></span>
+                <label for="">Email</label>
+            </div>
+
+            <div class="txt_field">
+                <input type="textarea" required>
+                <span></span>
+                <label for="">Bio</label>
+            </div>
+
+            <div class="profil">
+                <div class="txt_field">
+                    <input type="file" onchange="realUrl(this)" accept="image/*" required>
+                    <span></span>
+                   
+                </div>
+            </div>
+
+            <input type="submit" value="Enregistre">
+            <input type="submit" value="Reinitialiser">
+        </form>
+    </div>
+
+    <div class="block_text">
+        <h1>Liste des Contacts</h1>
+    </div>
+   </div> 
+</body>
+</html>
